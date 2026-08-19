@@ -7,8 +7,8 @@
 <p align="center">
   <a href="https://linkedin.com/in/takshak-singhania"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:takshaksinghania1@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://leetcode.com/TakshakSinghania"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode"/></a>
-  <a href="https://www.codechef.com/users/takshaksinghania"><img src="https://img.shields.io/badge/CodeChef-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef"/></a>
+  <a href="https://github.com/TakshakSinghania"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <img src="https://komarev.com/ghpvc/?username=TakshakSinghania&color=6366f1&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
 ---
@@ -54,7 +54,7 @@
 
 ---
 
-## 🚀 Featured Portfolio Projects
+## 🚀 Featured Engineering Projects
 
 <table>
   <tr>
@@ -110,25 +110,25 @@
 
 ---
 
-## 📊 GitHub Analytics & Telemetry
+## 📈 Engineering Activity & Metrics
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=TakshakSinghania&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="100%"/>
-    </td>
-    <td width="50%" align="center">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=TakshakSinghania&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=TakshakSinghania&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="100%"/>
-    </td>
-  </tr>
-</table>
+| Metric | Details / Status |
+|---|---|
+| **Primary Repositories** | [PayFlow](https://github.com/TakshakSinghania/Payflow) • [RouteWise](https://github.com/TakshakSinghania/routewise) • [GhostTyper Pro](https://github.com/TakshakSinghania/ghosttyper-pro) |
+| **Testing Coverage** | **73+ Automated Tests** across Jest & Supertest |
+| **Problem Solving** | **300+ Solved** on LeetCode • **3-Star Rating** on CodeChef |
+| **Core Architecture** | Relational ACID Databases, Distributed Locks, Message Queues, Graph Theory |
+
+<br/>
+
+<a href="https://github.com/TakshakSinghania">
+  <img src="https://img.shields.io/badge/GitHub-TakshakSinghania-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" />
+</a>
+<a href="https://github.com/TakshakSinghania?tab=repositories">
+  <img src="https://img.shields.io/badge/Repositories-Public_Projects-6366f1?style=for-the-badge&logo=git&logoColor=white" alt="Public Repositories" />
+</a>
 
 </div>
 
