@@ -37,7 +37,7 @@
 <div align="center">
 
 <a href="https://skillicons.dev">
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,express,postgres,redis,docker,tailwind,threejs,cpp,python,git,github,linux,postman,vite&perline=9&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nodejs,express,postgres,redis,docker,tailwind,threejs,cpp,python,git,github,linux,postman,vite&perline=9&theme=dark" />
 </a>
 
 </div>
@@ -46,7 +46,7 @@
 
 | Domain | Technologies |
 |---|---|
-| **Languages** | JavaScript (ES6+), TypeScript, C/C++, SQL, Python, HTML5, CSS3 |
+| **Languages** | TypeScript, JavaScript (ES6+), SQL, C/C++, Python, HTML5, CSS3 |
 | **Backend & Distributed Systems** | Node.js, Express.js, PostgreSQL 16, Redis 7, BullMQ, REST APIs, WebSockets |
 | **Frontend & UI Engineering** | React 18/19, Vite, Tailwind CSS, Leaflet, Three.js (WebGL), Framer Motion |
 | **Testing & Quality Assurance** | Jest, Supertest, Unit Testing, Integration Testing, Postman |
@@ -58,18 +58,27 @@
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/TakshakSinghania/Payflow">💳 PayFlow</a></h3>
-      <p align="center"><b>Payment Processing Infrastructure Simulator</b></p>
-      <p>A distributed payment simulation engine demonstrating ACID transactional safety with PostgreSQL row-level locks (<code>SELECT FOR UPDATE</code>), SHA-256 idempotency with <code>23505</code> collision recovery, BullMQ 5-tier exponential backoff webhooks, and HMAC-SHA256 signatures.</p>
-      <p align="center">
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/TakshakSinghania/Payflow">💳 PayFlow &mdash; Payment Processing Infrastructure Simulator</a></h3>
+      <p><b>ACID State Machine &bull; PostgreSQL Row Locking &bull; Distributed Idempotency &bull; BullMQ Worker</b></p>
+      <p>A production-style payment infrastructure simulator replicating core fin-tech backend reliability challenges: strict state transitions, atomic database operations, asynchronous event-driven webhook dispatching with exponential backoff, and cryptographic signature verification.</p>
+      <p>
         <img src="https://img.shields.io/badge/TypeScript-5.0-blue?style=flat-square&logo=typescript" />
         <img src="https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql" />
         <img src="https://img.shields.io/badge/Redis-7-DC382D?style=flat-square&logo=redis" />
         <img src="https://img.shields.io/badge/BullMQ-Queue-orange?style=flat-square" />
         <img src="https://img.shields.io/badge/Docker-Compose-2496ED?style=flat-square&logo=docker" />
+        <img src="https://img.shields.io/badge/Tests-58%2F58_Passing-brightgreen?style=flat-square" />
       </p>
+      <ul>
+        <li><b>ACID Concurrency Safety:</b> Managed PostgreSQL transactions (<code>withTransaction</code>) combined with pessimistic row locks (<code>SELECT ... FOR UPDATE</code>) on state transitions, preventing race conditions on concurrent capture and refund requests.</li>
+        <li><b>Distributed Idempotency:</b> Computes SHA-256 payload hashes and recovers from PostgreSQL <code>23505</code> unique constraint collisions without raising unhandled 500 errors.</li>
+        <li><b>Decoupled Webhook Worker:</b> Offloads delivery jobs to BullMQ backed by Redis, scheduling 5-tier exponential backoff retries (1s to 16s) with HMAC-SHA256 constant-time signature verification.</li>
+        <li><b>Chaos Simulation Studio:</b> Live fault injection toggles for payment processor declines, network timeouts, and 50% random failure modes.</li>
+      </ul>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/TakshakSinghania/routewise">🗺️ RouteWise</a></h3>
       <p align="center"><b>Delivery Route Optimizer & Pathfinding Engine</b></p>
@@ -79,11 +88,9 @@
         <img src="https://img.shields.io/badge/Node.js-20-green?style=flat-square&logo=node.js" />
         <img src="https://img.shields.io/badge/Leaflet-Maps-199900?style=flat-square&logo=leaflet" />
         <img src="https://img.shields.io/badge/OSM-Vector_Data-7EBC6F?style=flat-square" />
-        <img src="https://img.shields.io/badge/Algorithms-Dijkstra_/_A*-purple?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-10_Passing-brightgreen?style=flat-square" />
       </p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3 align="center"><a href="https://github.com/TakshakSinghania/ghosttyper-pro">⌨️ GhostTyper Pro</a></h3>
       <p align="center"><b>Autonomous Background Keystroke Synthesizer</b></p>
@@ -92,17 +99,7 @@
         <img src="https://img.shields.io/badge/Node.js-WebSockets-black?style=flat-square&logo=socketdotio" />
         <img src="https://img.shields.io/badge/Chrome_Extension-MV3-4285F4?style=flat-square&logo=googlechrome" />
         <img src="https://img.shields.io/badge/C%23-Win32_API-239120?style=flat-square&logo=csharp" />
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/TakshakSinghania/portfolio">🪐 3D Developer Portfolio</a></h3>
-      <p align="center"><b>Kinetic & Physics Personal Showcase</b></p>
-      <p>Interactive portfolio website featuring a procedural 3D WebGL hero stage (Three.js), Matter.js 2D rigid-body gravity physics sandbox footer, Lenis smooth scrolling, and live showcase modals of personal engineering projects.</p>
-      <p align="center">
-        <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react" />
-        <img src="https://img.shields.io/badge/Three.js-WebGL-black?style=flat-square&logo=threedotjs" />
-        <img src="https://img.shields.io/badge/Matter.js-Physics-00f59b?style=flat-square" />
-        <img src="https://img.shields.io/badge/Tailwind-CSS_v4-38BDF8?style=flat-square&logo=tailwindcss" />
+        <img src="https://img.shields.io/badge/Tests-5_Passing-brightgreen?style=flat-square" />
       </p>
     </td>
   </tr>
@@ -114,12 +111,12 @@
 
 <div align="center">
 
-| Metric | Details / Status |
+| Metric | Details / Verified Status |
 |---|---|
 | **Primary Repositories** | [PayFlow](https://github.com/TakshakSinghania/Payflow) • [RouteWise](https://github.com/TakshakSinghania/routewise) • [GhostTyper Pro](https://github.com/TakshakSinghania/ghosttyper-pro) |
 | **Testing Coverage** | **73+ Automated Tests** across Jest & Supertest |
 | **Problem Solving** | **300+ Solved** on LeetCode • **3-Star Rating** on CodeChef |
-| **Core Architecture** | Relational ACID Databases, Distributed Locks, Message Queues, Graph Theory |
+| **Core Architecture** | Relational ACID Databases, Distributed Locks, Message Queues, Spatial Graph Theory |
 
 <br/>
 
