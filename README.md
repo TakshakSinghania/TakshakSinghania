@@ -92,14 +92,18 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center"><a href="https://github.com/TakshakSinghania/ghosttyper-pro">⌨️ GhostTyper Pro</a></h3>
-      <p align="center"><b>Autonomous Background Keystroke Synthesizer</b></p>
-      <p>Developer productivity tool that streams formatted code directly into background browser tabs (Monaco/CodeMirror) or desktop IDEs. Features full-duplex WebSockets, Chrome MV3 editor hooks, and unmanaged C# Win32 <code>SendInput</code> hardware synthesis.</p>
+      <h3 align="center"><a href="https://github.com/TakshakSinghania/sentosa-qr-ordering">☕ SENTOSA &mdash; The Coffee Unit</a></h3>
+      <p align="center"><b>Mobile-First QR Ordering &amp; Restaurant Operations Platform</b></p>
+      <p>A mobile-first QR ordering and restaurant operations platform with menu customization, real-time kitchen orders, payments, waiter calls, and role-based management. Engineered with cryptographic table tokens, authoritative server-side price calculations, phone OTP authentication, and live WebSocket order dispatch.</p>
       <p align="center">
-        <img src="https://img.shields.io/badge/Node.js-WebSockets-black?style=flat-square&logo=socketdotio" />
-        <img src="https://img.shields.io/badge/Chrome_Extension-MV3-4285F4?style=flat-square&logo=googlechrome" />
-        <img src="https://img.shields.io/badge/C%23-Win32_API-239120?style=flat-square&logo=csharp" />
-        <img src="https://img.shields.io/badge/Tests-5_Passing-brightgreen?style=flat-square" />
+        <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react" />
+        <img src="https://img.shields.io/badge/TypeScript-5.7-blue?style=flat-square&logo=typescript" />
+        <img src="https://img.shields.io/badge/PostgreSQL-16-336791?style=flat-square&logo=postgresql" />
+        <img src="https://img.shields.io/badge/Socket.IO-4.8-010101?style=flat-square&logo=socketdotio" />
+        <img src="https://img.shields.io/badge/Tests-63_Passing-brightgreen?style=flat-square" />
+      </p>
+      <p align="center">
+        <a href="https://github.com/TakshakSinghania/sentosa-qr-ordering"><b>View Project &rarr;</b></a>
       </p>
     </td>
   </tr>
@@ -113,8 +117,8 @@
 
 | Metric | Details / Verified Status |
 |---|---|
-| **Primary Repositories** | [PayFlow](https://github.com/TakshakSinghania/Payflow) • [RouteWise](https://github.com/TakshakSinghania/routewise) • [GhostTyper Pro](https://github.com/TakshakSinghania/ghosttyper-pro) |
-| **Testing Coverage** | **73+ Automated Tests** across Jest & Supertest |
+| **Primary Repositories** | [PayFlow](https://github.com/TakshakSinghania/Payflow) • [RouteWise](https://github.com/TakshakSinghania/routewise) • [Sentosa QR Ordering](https://github.com/TakshakSinghania/sentosa-qr-ordering) |
+| **Testing Coverage** | **130+ Automated Tests** across Jest, Vitest & Supertest |
 | **Problem Solving** | **300+ Solved** on LeetCode • **3-Star Rating** on CodeChef |
 | **Core Architecture** | Relational ACID Databases, Distributed Locks, Message Queues, Spatial Graph Theory |
 
